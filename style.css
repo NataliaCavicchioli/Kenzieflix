@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}    
+
+section{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section .titulo{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'IBM Plex Sans';
+    color: white;
+    font-weight: 600px;
+}
+
+.perfil{
+    display: flex;
+    gap: 20px;
+    width: 700px;
+    margin-top: 40px;
+}
+
+.gerenciar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 206px;
+    height: 50px;
+    border: 1px white solid;
+    border-radius: 8px;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans';
+}
+
+p{
+    color: white;
+    text-align:center;
+    font-family: 'IBM Plex Sans';
+}
+
+img{
+    border-radius: 8px;
+}
+
+.first-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.first:hover{
+    font-weight: 800;
+}
+
+.imagem-perfil:hover{
+    zoom: 120%;
+}
+
+.hover-perfil:hover{
+    opacity: 0.5;
+}
+
+.gerenciar:hover, .btn:hover{
+    color: black;
+    border-color: white;
+    background-color: white;
+    font-weight: 800;
+}
+
